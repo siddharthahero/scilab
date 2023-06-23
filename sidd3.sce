@@ -1,0 +1,13 @@
+clc
+u=1200;
+e=552;
+m=627;
+it=540;
+eandm=217;
+eandit=307;
+mandit=240;
+eandmandit=213;
+eormorit=e+m+it-eandm-eandit-mandit+eandmandit;
+disp(eormorit);
+none=u-eormorit;
+disp(none);
